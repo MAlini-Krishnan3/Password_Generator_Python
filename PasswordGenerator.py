@@ -56,6 +56,9 @@ def isLengthDigitValidation(input):
 
 
 def inputFunction():
+    print('Welcome to Password Generator!!\n')
+    print('Passwords generated will have atleast\n1. Lowercase character\n2. Uppercase character\n3. Special character\n4. Numeric character')
+    
     minLength = input('Enter min length for password: ')
     if(isLengthDigitValidation(minLength) and not(int(minLength)==0)):
         maxLength = input('Enter max length for password: ')
